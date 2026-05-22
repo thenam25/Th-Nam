@@ -1,0 +1,6 @@
+{
+  "name": "Đại Học Sư Phạm Kỹ Thuật TP.HCM - HCMUTE",
+  "description": "Trang giới thiệu chính thức Đại học Sư phạm Kỹ thuật TP.HCM hiện đại và chuyên nghiệp tích hợp tra cứu điểm số, tuyển sinh và cựu sinh viên.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
