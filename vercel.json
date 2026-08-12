@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "api/index.ts": {
+      "maxDuration": 300,
+      "memory": 2048,
+      "includeFiles": "data/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.ts"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
